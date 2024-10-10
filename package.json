@@ -1,12 +1,12 @@
 {
-  "name": "n315-number-2",
+  "name": "homework-4",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "compile": "sass scss/styles.scss css/styles.css -w --no-source-map",
+    "compile-sass": "sass scss/styles.scss css/styles.css -w --no-source-map",
     "serve": "live-server"
   },
   "keywords": [],

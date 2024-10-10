@@ -56,3 +56,79 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+section.about {
+  font-family: Seg_Bold;
+}
+section.about .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.about .row div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section.about .row div.photo {
+  height: 350px;
+  width: 24%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.about .row div.owner {
+  background-image: url(../images/about-photo.jpg);
+}
+section.about .row div.store {
+  background-image: url(../images/about-photo-two.jpg);
+}
+section.about .row div.right {
+  width: 70%;
+}
+section.about .row div.right h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+section.about .row div.right h6 {
+  text-transform: capitalize;
+  font-size: 26px;
+}
+section.about .row div.right p {
+  font-size: 16px;
+}
+
+/* ipad */
+@media screen and (max-width: 768px) {
+  section.about .row div.photo {
+    width: 45%;
+  }
+  section.about .row div.right {
+    width: 45%;
+  }
+  section.about .row div.right h1 {
+    font-size: 12px;
+  }
+  section.about .row div.right h6 {
+    font-size: 10px;
+  }
+  section.about .row div.right p {
+    font-size: 11px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 400px) {
+  section.about .row div.photo {
+    height: 130px;
+    width: 75px;
+  }
+  section.about .row div.right {
+    width: 73%;
+  }
+  section.about .row div.right h1,
+  section.about .row div.right h6,
+  section.about .row div.right p {
+    font-size: 6px;
+  }
+}
