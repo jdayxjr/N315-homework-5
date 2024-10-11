@@ -1,0 +1,43 @@
+footer {
+  margin-top: 130px;
+  /* keep this margin top to keep spacing even accross all pages */
+  height: 90px;
+  background-color: $siteBlue;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-family: Seg_Reg;
+  color: $siteWhite;
+
+  div {
+    width: 20%;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      color: $siteWhite;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    i {
+      color: $siteWhite;
+    }
+  }
+}
