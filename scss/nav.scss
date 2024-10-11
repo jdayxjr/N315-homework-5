@@ -1,27 +1,18 @@
 nav {
-  border-style: solid;
-  overflow: hidden;
-  width: 100%;
+  border-style: 5px solid black;
   height: 100px;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: space-evenly;
+}
+.margin {
 }
 
-nav a {
-  text-decoration: none;
-  color: black;
+#book {
+  height: 72px;
+  width: 72px;
 }
 
-#logo {
-  width: 73px;
-  height: 73px;
-}
-
-#user {
-  width: 47px;
+#profile-image {
   height: 47px;
+  width: 47px;
 }
 
 #cart {
@@ -34,4 +25,20 @@ nav a {
   width: 600px;
   background-color: rgba(80, 124, 131, 0.3);
   color: black;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+}
+
+#nav-header-text {
+  font-family: sans-serif;
 }

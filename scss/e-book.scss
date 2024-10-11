@@ -1,0 +1,58 @@
+.e-book{
+    margin-top: 172px;
+    height: 1888px;
+    margin-top: 172px;
+
+
+    .hero{
+        width: 1464px;
+        height: 463px;
+        margin: 0 auto;
+
+        h1{
+            font-size: 32px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        p{
+            font-size: 26px;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .stuff{
+        display: flex;
+        width: 1552px;
+        height: 700px;
+
+
+        .left{
+            width: 622px;
+            height: 463px;
+
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .right{
+           width: 898px;
+            margin-left: 39px;
+
+            p{
+                margin-bottom: 10px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 16px;
+            }
+        }
+    }
+}

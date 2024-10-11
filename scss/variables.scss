@@ -1,0 +1,14 @@
+$siteWhite: rgb(255, 255, 255);
+$siteBlack: rgb(0, 0, 0);
+$siteBlue: rgb(88, 124, 131);
+$siteBlueA: rgba(88, 124, 131, .6);
+
+@font-face {
+    font-family: Seg_Bold;
+    src: url(/css/fonts/segoeuib.ttf);
+}
+
+@font-face {
+    font-family: Seg_Reg;
+    src: url(/css/fonts/segoeui.ttf);
+}
