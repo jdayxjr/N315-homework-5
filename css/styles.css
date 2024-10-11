@@ -132,3 +132,94 @@ section.about .row div.right p {
     font-size: 6px;
   }
 }
+section.books .row {
+  padding-bottom: 50px;
+}
+section.books .row h1 {
+  margin-bottom: 25px;
+  font-family: Seg_Bold;
+}
+section.books .row .displayCase .displayCaseItem {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+section.books .row .displayCase .displayCaseItem img {
+  height: 250px;
+}
+section.books .row .displayCase .displayCaseItem img.bookset {
+  width: 165px;
+  height: 100%;
+}
+section.books .row .displayCase .displayCaseItem .itemInfo {
+  width: 48%;
+}
+section.books .row .displayCase .displayCaseItem .itemInfo p {
+  text-align: left;
+}
+
+section.books > *:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+/* ipad */
+@media screen and (max-width: 768px) {
+  section.books .row .displayCase {
+    flex-direction: column;
+  }
+  section.books .row .displayCase .displayCaseItem {
+    width: 75%;
+  }
+  section.books .row .displayCase > *:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 400px) {
+  section.books .row .displayCase .displayCaseItem img {
+    height: 150px;
+  }
+  section.books .row .displayCase .displayCaseItem img.bookset {
+    width: auto;
+    height: 115px;
+  }
+}
+section.home .displayCase .displayCaseItem {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+section.home .displayCase .displayCaseItem img {
+  height: 300px;
+  margin-bottom: 25px;
+}
+section.home .displayCase .displayCaseItem .itemInfo {
+  text-align: center;
+}
+section.home .displayCase .displayCaseItem .itemInfo .addBtn {
+  margin: 0 auto;
+}
+
+/* ipad */
+@media screen and (max-width: 768px) {
+  section.home .displayCase {
+    flex-direction: column;
+  }
+  section.home .displayCase .displayCaseItem {
+    width: 65%;
+  }
+  section.home .displayCase .displayCaseItem img {
+    height: 250px;
+  }
+  section.home .displayCase > *:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 400px) {
+  section.home .displayCase .displayCaseItem img {
+    height: 150px;
+  }
+}
