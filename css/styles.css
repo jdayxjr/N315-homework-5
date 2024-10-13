@@ -494,6 +494,17 @@ section.books > *:not(:last-child) {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  text-align: center;
+}
+.blogBackground1 .bloginfo-wrapper {
+  padding-top: 170px;
+  color: white;
+}
+.blogBackground1 .bloginfo-wrapper .blogInfoHeader {
+  font-size: 32px;
+}
+.blogBackground1 .bloginfo-wrapper .blogInfoTxt {
+  font-size: 22px;
 }
 .blogBackground1 .blogInfo {
   margin: 0 auto;
@@ -501,14 +512,6 @@ section.books > *:not(:last-child) {
   width: 900px;
   text-align: center;
   color: #fff;
-}
-.blogBackground1 .blogInfo .blogInfoHeader {
-  font-size: 32px;
-  margin-bottom: 60px;
-}
-.blogBackground1 .blogInfo .blogInfoTxt {
-  font-size: 22px;
-  margin-bottom: 60px;
 }
 
 .blog-section {
