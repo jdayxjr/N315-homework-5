@@ -664,7 +664,6 @@ section.books > *:not(:last-child) {
 }
 .blog-section .blogInfoTxt {
   padding-left: 20px;
-  text-transform: uppercase;
   text-align: left;
   font-size: 15px;
   font-family: Segoe UI;
