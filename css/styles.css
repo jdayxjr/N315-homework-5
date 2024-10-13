@@ -532,53 +532,54 @@ section.books > *:not(:last-child) {
   font-size: 16px;
 }
 
-.bookclub {
-  margin-top: 172px;
-  height: 1888px;
-  margin-top: 172px;
-}
-.bookclub .hero {
+.blogBackground1 {
+  background-image: linear-gradient(rgba(88, 124, 131, 0.4), rgba(88, 124, 131, 0.4)), url(../images/book-club-hero.jpg);
   width: 1464px;
   height: 463px;
   margin: 0 auto;
+  margin-top: 117px;
+  margin-bottom: 123px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.bookclub .hero h1 {
+.blogBackground1 .blogInfo {
+  margin: 0 auto;
+  padding-top: 150px;
+  width: 900px;
+  text-align: center;
+  color: #fff;
+}
+.blogBackground1 .blogInfo .blogInfoHeader {
   font-size: 32px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
-.bookclub .hero p {
-  font-size: 26px;
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
+.blogBackground1 .blogInfo .blogInfoTxt {
+  font-size: 22px;
+  margin-bottom: 60px;
 }
-.bookclub .hero img {
-  height: 100%;
-  width: 100%;
-}
-.bookclub .stuff {
+
+.blog-section {
+  width: 1464px;
+  min-height: 463px;
+  margin: 0 auto;
+  margin-top: 117px;
+  margin-bottom: 123px;
   display: flex;
-  width: 1552px;
-  height: 700px;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.bookclub .stuff .left {
-  width: 622px;
+.blog-section img {
+  margin: 0 auto;
+  text-align: center;
   height: 463px;
 }
-.bookclub .stuff .left img {
-  height: 100%;
-  width: 100%;
-}
-.bookclub .stuff .right {
-  width: 898px;
-  margin-left: 39px;
-}
-.bookclub .stuff .right p {
-  margin-bottom: 10px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
+.blog-section .blog-text p {
+  padding-left: 20px;
+  text-align: left;
+  font-size: 15px;
+  font-family: Segoe UI;
+  color: #000;
 }
 
 .blogBackgroundClr {
