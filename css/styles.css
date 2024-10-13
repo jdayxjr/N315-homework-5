@@ -9,7 +9,6 @@
 html,
 body {
   height: 100%;
-  font-family: sans-serif;
 }
 
 h1,
@@ -494,17 +493,6 @@ section.books > *:not(:last-child) {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
-}
-.blogBackground1 .bloginfo-wrapper {
-  padding-top: 170px;
-  color: white;
-}
-.blogBackground1 .bloginfo-wrapper .blogInfoHeader {
-  font-size: 32px;
-}
-.blogBackground1 .bloginfo-wrapper .blogInfoTxt {
-  font-size: 22px;
 }
 .blogBackground1 .blogInfo {
   margin: 0 auto;
@@ -512,6 +500,14 @@ section.books > *:not(:last-child) {
   width: 900px;
   text-align: center;
   color: #fff;
+}
+.blogBackground1 .blogInfo .blogInfoHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.blogBackground1 .blogInfo .blogInfoTxt {
+  font-size: 22px;
+  margin-bottom: 60px;
 }
 
 .blog-section {
@@ -535,6 +531,57 @@ section.books > *:not(:last-child) {
   font-size: 15px;
   font-family: Segoe UI;
   color: #000;
+}
+
+.loginWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+  padding: 20px;
+}
+
+.login-Form,
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+input[type=text] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #5a7d7c;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #496b6a;
 }
 
 .blogBackgroundClr {
@@ -667,6 +714,7 @@ section.books > *:not(:last-child) {
 }
 .blog-section .blogInfoTxt {
   padding-left: 20px;
+  text-transform: uppercase;
   text-align: left;
   font-size: 15px;
   font-family: Segoe UI;
@@ -684,17 +732,6 @@ section.books > *:not(:last-child) {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
-}
-.blogBackground3 .bloginfo-wrapper {
-  padding-top: 170px;
-  color: white;
-}
-.blogBackground3 .bloginfo-wrapper .blogInfoHeader {
-  font-size: 32px;
-}
-.blogBackground3 .bloginfo-wrapper .blogInfoTxt {
-  font-size: 22px;
 }
 .blogBackground3 .blogInfo {
   margin: 0 auto;
@@ -702,6 +739,14 @@ section.books > *:not(:last-child) {
   width: 900px;
   text-align: center;
   color: #fff;
+}
+.blogBackground3 .blogInfo .blogInfoHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.blogBackground3 .blogInfo .blogInfoTxt {
+  font-size: 22px;
+  margin-bottom: 60px;
 }
 
 .blog-section {

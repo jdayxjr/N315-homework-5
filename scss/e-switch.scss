@@ -14,26 +14,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
 
-  .bloginfo-wrapper {
-    // background-color: red;
-    padding-top: 170px;
-    color: white;
-    .blogInfoHeader {
-      font-size: 32px;
-    }
-
-    .blogInfoTxt {
-      font-size: 22px;
-    }
-  }
   .blogInfo {
     margin: 0 auto;
     padding-top: 150px;
     width: 900px;
     text-align: center;
     color: #fff;
+
+    .blogInfoHeader {
+      font-size: 32px;
+      margin-bottom: 60px;
+    }
+
+    .blogInfoTxt {
+      font-size: 22px;
+      margin-bottom: 60px;
+    }
   }
 }
 

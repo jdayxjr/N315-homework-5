@@ -1,55 +1,54 @@
 section.home {
+  /* see banner.scss for page banner */
 
-    /* see banner.scss for page banner */
+  .displayCase .displayCaseItem {
+    /* display featured books on homepage */
+    width: 25%;
 
-    .displayCase .displayCaseItem {
-        /* display featured books on homepage */
-        width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-
-        img {
-            height: 300px;
-            margin-bottom: 25px;
-        }
-
-        .itemInfo {
-            text-align: center;
-
-            .addBtn {
-                margin: 0 auto;
-            }
-        }
+    img {
+      height: 300px;
+      margin-bottom: 25px;
     }
+
+    .itemInfo {
+      text-align: center;
+
+      .addBtn {
+        margin: 0 auto;
+      }
+    }
+  }
 }
 
 /* ipad */
-@media screen and (max-width:768px) {
-    section.home {
-        .displayCase {
-            flex-direction: column;
+@media screen and (max-width: 768px) {
+  section.home {
+    .displayCase {
+      flex-direction: column;
 
-            .displayCaseItem {
-                width: 65%;
+      .displayCaseItem {
+        width: 65%;
 
-                img {
-                    height: 250px;
-                }
-            }
+        img {
+          height: 250px;
         }
-
-        .displayCase>*:not(:last-child) {
-            margin-bottom: 50px;
-        }
+      }
     }
+
+    .displayCase > *:not(:last-child) {
+      margin-bottom: 50px;
+    }
+  }
 }
 
 /* mobile */
-@media screen and (max-width:400px) {
-    section.home .displayCase .displayCaseItem img {
-        height: 150px;
-    }
+@media screen and (max-width: 400px) {
+  section.home .displayCase .displayCaseItem img {
+    height: 150px;
+  }
 }

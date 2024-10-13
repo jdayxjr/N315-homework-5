@@ -8,8 +8,7 @@
 
 html,
 body {
-  height: 100%;
-  font-family: sans-serif;
+    height: 100%;
 }
 
 h1,
@@ -19,43 +18,44 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .xtraB {
-  margin-bottom: 85px;
+    margin-bottom: 85px;
 }
 
 .margin {
-  width: 85vw;
-  margin: 0 auto;
+    width: 85vw;
+    margin: 0 auto;
 }
 
 .displayCase {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
-  &Item {
-    .itemInfo {
-      font-family: Seg_Reg;
-      font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-      .price {
-        font-family: Seg_Bold;
-        font-size: 16px;
-        margin-bottom: 25px;
-      }
+    &Item {
+        .itemInfo {
+            font-family: Seg_Reg;
+            font-size: 12px;
 
-      .addBtn {
-        height: 50px;
-        width: 75%;
-        border: $siteBlack solid 1px;
+            .price {
+                font-family: Seg_Bold;
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
 
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-      }
+            .addBtn {
+                height: 50px;
+                width: 75%;
+                border: $siteBlack solid 1px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+        }
     }
-  }
 }

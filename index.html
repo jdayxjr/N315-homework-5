@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookNook</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BookNook</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-</head>
-
-<body>
-  <nav>
-    <div class="margin">
-      <div class="links">
-        <div class="logo">
-          <img id="book" src="images/books-stack-of-three.png" alt="">
+  <body>
+    <nav>
+      <div class="margin">
+        <div class="links">
+          <div class="logo">
+            <img id="book" src="images/books-stack-of-three.png" alt="" />
+          </div>
+          <h3 id="nav-header-text">the BookNook</h3>
+          <div class="search">
+            <input id="search" type="text" placeholder="Search.." />
+          </div>
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#books">books</a>
+          <a href="#blog">blog</a>
+          <a href="#account">account</a>
+          <div class="profile">
+            <img id="profile-image" src="images/user.png" alt="" />
+          </div>
+          <a href="#cart">cart</a>
+          <div class="logo">
+            <img id="cart" src="images/shopping-cart.png" alt="" />
+          </div>
         </div>
-        <h3 id="nav-header-text">the BookNook</h3>
-        <div class="search"><input id="search" type="text" placeholder="Search.."></div>
+      </div>
+    </nav>
+    <div class="margin" id="app"></div>
+
+    <footer>
+      <div>Copyright 2024-25, The BookNook</div>
+      <div class="links">
         <a href="#home">home</a>
         <a href="#about">about</a>
         <a href="#books">books</a>
         <a href="#blog">blog</a>
-        <a href="#account">account</a>
-        <div class="profile"><img id="profile-image" src="images/user.png" alt=""></div>
-        <a href="#cart">cart</a>
-        <div class="logo">
-          <img id="cart" src="images/shopping-cart.png" alt="">
-        </div>
       </div>
-    </div>
-  </nav>
-  <div class="margin" id="app">
-    <!-- page content injects here -->
-  </div>
-  <footer>
-    <div>Copyright 2024-25, The BookNook</div>
-    <div class="links">
-      <a href="#home">home</a>
-      <a href="#about">about</a>
-      <a href="#books">books</a>
-      <a href="#blog">blog</a>
-    </div>
-    <div class="socials">
-      <i class="fa-brands fa-square-facebook fa-2xl"></i>
-      <i class="fa-brands fa-instagram fa-2xl"></i>
-      <i class="fa-brands fa-twitter fa-2xl"></i>
-    </div>
-  </footer>
-  <script type="module" src="model/model.js"></script>
-  <script type="module" src="lib/code.jquery.com_jquery-3.7.1.min.js"></script>
-  <script type="module" src="app/app.js"></script>
-</body>
-
+      <div class="socials">
+        <i class="fa-brands fa-square-facebook fa-2xl"></i>
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <i class="fa-brands fa-twitter fa-2xl"></i>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="model/model.js"></script>
+    <script
+      type="module"
+      src="lib/code.jquery.com_jquery-3.7.1.min.js"
+    ></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
 </html>
