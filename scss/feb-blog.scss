@@ -1,0 +1,82 @@
+// Feb Favorites Start
+.blogBackground2 {
+  // background-color: #587C83;
+  background-image: linear-gradient(
+      rgba(88, 124, 131, 0.4),
+      rgba(88, 124, 131, 0.4)
+    ),
+    url(../images/february-favorites-hero.jpg);
+  width: 1464px;
+  height: 463px;
+  margin: 0 auto;
+  margin-top: 117px;
+  margin-bottom: 123px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .blogInfo {
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 418px;
+    text-align: center;
+    color: #fff;
+
+    .blogInfoHeader {
+      font-size: 32px;
+      margin-bottom: 60px;
+    }
+
+    .blogInfoTxt {
+      font-size: 22px;
+      margin-bottom: 60px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+.blog-section {
+  //  background-color: #587C83;
+  width: 1464px;
+  height: 463px;
+  margin: 0 auto;
+  margin-top: 117px;
+  margin-bottom: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+
+  img {
+    margin: 0 auto;
+    text-align: center;
+    height: 463px;
+  }
+
+  .blogInfoHeader {
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Segoe UI;
+    color: #000;
+    position: absolute;
+    top: 0;
+  }
+
+  .blogInfoTxt {
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 15px;
+    font-family: Segoe UI;
+    color: #000;
+    padding-bottom: 200px;
+  }
+}
+
+// Feb Favorites End
