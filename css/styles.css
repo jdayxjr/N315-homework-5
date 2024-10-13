@@ -580,3 +580,74 @@ section.books > *:not(:last-child) {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
 }
+
+.blogBackgroundClr {
+  background-color: #587c83;
+  width: 1464px;
+  height: 463px;
+  margin: 0 auto;
+  margin-top: 117px;
+  margin-bottom: 123px;
+  display: flex;
+  align-items: center;
+}
+.blogBackgroundClr .blogImg {
+  width: 250px;
+  height: 380px;
+  margin-left: 88px;
+}
+.blogBackgroundClr .blogHalfImg {
+  width: 622px;
+  height: 463px;
+}
+.blogBackgroundClr .blogInfo {
+  width: 418px;
+  margin-left: 197px;
+  text-align: center;
+  color: #fff;
+}
+.blogBackgroundClr .blogInfo .blogInfoHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.blogBackgroundClr .blogInfo .blogInfoTxt {
+  margin-bottom: 60px;
+}
+.blogBackgroundClr .blogInfo .blogBtn {
+  width: 222px;
+  height: 68px;
+  background-color: #587c83;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+.blogBackgroundClr .blogHalfInfo {
+  width: 418px;
+  margin-left: 250px;
+  text-align: center;
+  color: #fff;
+}
+.blogBackgroundClr .blogHalfInfo .blogInfoHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.blogBackgroundClr .blogHalfInfo .blogInfoEReadHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+  width: 444px;
+}
+.blogBackgroundClr .blogHalfInfo .blogInfoTxt {
+  margin-bottom: 60px;
+}
+.blogBackgroundClr .blogHalfInfo .blogBtn {
+  width: 222px;
+  height: 68px;
+  background-color: #587c83;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+.blogBackgroundClr .blogHalfInfo .blogBtn a {
+  color: white;
+  text-decoration: none;
+}
