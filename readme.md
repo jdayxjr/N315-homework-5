@@ -5,14 +5,23 @@
 ### Assignment:
 
 -You must create the Booknook site from an AdobeXD file found in Files > BookNookDownload Files > BookNook
+
 -Your site must look identical to the prototype in all media, meaning it must be responsive.
+
 -When it is finished, you need to consider this a fully dynamic site, so set it up accordingly. HTML injection and MVC are a must.
+
 -You must simulate a login and out of the website.
+
 -You must show all necessary user feedback. Log in, out, any errors, etc...
+
 -You will work as a team.
+
 -In the README.md file, make sure you put who is doing what on the project. This is crucial to your grade.
--You must be able to add items to a cart.  
+
+-You must be able to add items to a cart.
+
 -Everyone must submit their Github link to see the activity on the files.
+
 -Upload this to the Web 4 server and Github and submit the Github link to this project.
 
 ### How to run project:
@@ -47,23 +56,43 @@ At the bottom of each page, the footer offers quick links to different sections 
 ### Who is Doing What
 
 Charley:
+
 -added about page in about.hmtl
+
 -added about.scss file
+
 -edited pages folder
+
 -added home page
+
 -added books/cart hmtl
+
 -added books/cart/footer scss files
+
 -added footer scss and to index.html
+
 -added home scss/html
+
 -fixed styling on blog page
+
 -worked on responsiveness of on login/signup
+
 -fixing styling on account page
+
 -Added styling for account
+
 -Added styling for login page
+
 -Added website walkthrough to README
+
 -Edited books page
+
 -Added cart.js and started the add to cart function
+
 -edited app.js
+
 -edit commit
+
 -Added cart.js
+
 -Added cart.js script
