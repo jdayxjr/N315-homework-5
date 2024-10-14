@@ -57,7 +57,7 @@ The cart page shows each selected book with options to change the quantity or de
 Footer:
 At the bottom of each page, the footer offers quick links to different sections and icons for social media platforms (Facebook, Instagram, Twitter).
 
-### Who was in charge of what pages:
+### Who was in charge of what pages & features:
 
 Jay:
 
