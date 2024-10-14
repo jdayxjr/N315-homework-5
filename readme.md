@@ -61,3 +61,5 @@ Charley:
 -Added cart.js and started the add to cart function
 -edited app.js
 -edit commit
+-Added cart.js
+-Added cart.js script

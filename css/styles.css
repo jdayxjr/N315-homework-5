@@ -380,7 +380,6 @@ section.books > *:not(:last-child) {
   }
 }
 .cart {
-  height: 1888px;
   width: 1920px;
 }
 .cart .content {
