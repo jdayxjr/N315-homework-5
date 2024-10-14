@@ -61,7 +61,8 @@ At the bottom of each page, the footer offers quick links to different sections 
 
 Jay:
 
-- Nav Bar
+- Navigation Bar
+- Page Routes
 - Home page
 - February Favorites
 - Blog Page
