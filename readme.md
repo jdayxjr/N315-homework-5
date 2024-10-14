@@ -60,3 +60,4 @@ Charley:
 -Edited books page
 -Added cart.js and started the add to cart function
 -edited app.js
+-edit commit
