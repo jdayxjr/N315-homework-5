@@ -96,3 +96,5 @@ Charley:
 -Added cart.js
 
 -Added cart.js script
+
+-Finished login
