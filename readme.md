@@ -2,6 +2,9 @@
 
 ## Collaborative Nookbook Charley Corneil & Jay Dawson
 
+Charley Web4 Link:
+Jay Web4 Link:
+
 ### Assignment:
 
 -You must create the Booknook site from an AdobeXD file found in Files > BookNookDownload Files > BookNook
