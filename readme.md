@@ -2,7 +2,8 @@
 
 ## Collaborative Nookbook Charley Corneil & Jay Dawson
 
-Assignment:
+### Assignment:
+
 -You must create the Booknook site from an AdobeXD file found in Files > BookNookDownload Files > BookNook
 -Your site must look identical to the prototype in all media, meaning it must be responsive.
 -When it is finished, you need to consider this a fully dynamic site, so set it up accordingly. HTML injection and MVC are a must.
@@ -14,7 +15,8 @@ Assignment:
 -Everyone must submit their Github link to see the activity on the files.
 -Upload this to the Web 4 server and Github and submit the Github link to this project.
 
-How to run project:
+### How to run project:
+
 Homepage:
 Start at the homepage where the main banner with a featured book and tagline is visible.
 Scroll down to see a selection of popular or featured books with "Add to Cart" options below each book cover.
@@ -41,6 +43,8 @@ The cart page shows each selected book with options to change the quantity or de
 
 Footer:
 At the bottom of each page, the footer offers quick links to different sections and icons for social media platforms (Facebook, Instagram, Twitter).
+
+### Who is Doing What
 
 Charley:
 -added about page in about.hmtl
