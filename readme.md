@@ -76,7 +76,7 @@ Charley:
 - About Page
 - Books page
 - Add to cart feature
-- login/logout
+- login/logout feature
 - Footer
 - Cart.js
 
