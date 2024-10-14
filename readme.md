@@ -57,67 +57,26 @@ The cart page shows each selected book with options to change the quantity or de
 Footer:
 At the bottom of each page, the footer offers quick links to different sections and icons for social media platforms (Facebook, Instagram, Twitter).
 
-### Who is Doing What
+### Who was in charge of what pages:
 
 Jay:
 
--added jquery and json files
-
- -nav bar completed for website
- 
- -added in app and page.js for routes and model js got footer to work navigation bar to be functional for most of the site
- 
- -added back and finished cart.html also added bookclub.html
- 
- -changed footer text
- 
- -added in e-book.html
- 
- -added the blog.html to website
- 
- -added feb-blogs.html to pages
- 
- -added bookclub.html into to pages
- 
- -changed and added e-switch page and scss file
-
- -changed font family on strtucture.scss file
- 
- -removed text-transform from class bloginfotxt touppercase
- 
- -fixed heading on bookclubs page
- 
- -fixed text and align it to the center on e-switch page changed color to white
+- Nav Bar
+- Home page
+- February Favorites
+- Blog Page
+- Blookclub Page
+- Switching to E-reading page
+- App.js
+- Model.js
 
  
 Charley:
 
--added about page in about.hmtl
+- About Page
+- Books page
+- Add to cart feature
+- login/logout
+- Footer
+- Cart.js
 
--added about.scss file
-
--edited pages folder,added home page
-
--added books/cart hmtl
-
--added books/cart/footer scss files
-
--added footer scss and to index.html
-
--added home scss/html
-
--worked on responsiveness of on login/signup
-
--fixing styling on account page
-
--Added styling for account
-
--Added styling for login page
-
--Added website walkthrough to README
-
--Added cart.js
-
--Added cart.js,Added cart.js script
-
--Finished login
