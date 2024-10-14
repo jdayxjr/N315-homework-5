@@ -96,9 +96,7 @@ Charley:
 
 -added about.scss file
 
--edited pages folder
-
--added home page
+-edited pages folder,added home page
 
 -added books/cart hmtl
 
@@ -107,8 +105,6 @@ Charley:
 -added footer scss and to index.html
 
 -added home scss/html
-
--fixed styling on blog page
 
 -worked on responsiveness of on login/signup
 
@@ -120,16 +116,8 @@ Charley:
 
 -Added website walkthrough to README
 
--Edited books page
-
--Added cart.js and started the add to cart function
-
--edited app.js
-
--edit commit
-
 -Added cart.js
 
--Added cart.js script
+-Added cart.js,Added cart.js script
 
 -Finished login
