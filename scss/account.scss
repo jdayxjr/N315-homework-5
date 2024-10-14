@@ -14,19 +14,22 @@
   width: 280px;
   background-color: #ffffff;
   padding: 20px;
+  color: black;
+  font-size: 20px;
 }
 
 .Login-Heading,
 .Signin-Heading {
   font-size: 1.5rem;
-  color: #333;
   margin-bottom: 10px;
   font-weight: bold;
+  color: black;
+  font-size: 20px;
 }
 
 label {
   font-size: 0.9rem;
-  color: #555;
+  color: black;
   margin-bottom: 5px;
 }
 
@@ -38,15 +41,14 @@ p {
 
 input {
   border: none;
-  border-bottom: 2px solid #5a7d7c; /* Adds underline */
-  padding: 8px 0;
+  border-bottom: 2px solid #5a7d7c;
   margin-bottom: 15px;
   font-size: 1rem;
 }
 
 input:focus {
   outline: none;
-  border-bottom-color: #496b6a; /* Changes underline color on focus */
+  border-bottom-color: #496b6a;
 }
 
 button {

@@ -3,26 +3,21 @@ import { getContent } from "../model/model.js";
 function route() {
   let hash = window.location.hash;
   let pageID = hash.replace("#", "");
-  pageID = pageID ? pageID : "home";
+
+  /* (if pageID exists) ? (nothing) : (else pageID is home) */
+  pageID ? (pageID = pageID) : (pageID = "home");
+
   getContent(pageID);
 }
 
 function initListeners() {
   $(window).on("hashchange", route);
   route();
-
-  const loginForm = document.querySelector(".login-Form");
-  const logoutButton = document.querySelector(".logout-button");
-
-  if (loginForm) {
-    loginForm.addEventListener("submit", handleLogin);
-  }
-  if (logoutButton) {
-    logoutButton.addEventListener("click", handleLogout);
-  }
 }
 
-$(document).ready(initListeners);
+$(document).ready(function () {
+  initListeners();
+});
 
 async function handleLogin(event) {
   event.preventDefault();
@@ -56,7 +51,17 @@ function handleLogout() {
     confirmButtonText: "Yes, logout",
   }).then((result) => {
     if (result.isConfirmed) {
-      Swal.fire("Logged out!", "You have successfully logged out.", "success");
+      Swal.fire({
+        title: "Logged out!",
+        text: "You have been successfully logged out.",
+        icon: "success",
+        confirmButtonText: "OK",
+      });
     }
   });
 }
+
+document.querySelector(".login-Form").addEventListener("submit", handleLogin);
+document
+  .querySelector(".logout-button")
+  .addEventListener("click", handleLogout);
