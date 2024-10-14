@@ -61,7 +61,10 @@ function handleLogout() {
   });
 }
 
-document.querySelector(".login-Form").addEventListener("submit", handleLogin);
+document.querySelector(".login-email").addEventListener("submit", handleLogin);
 document
   .querySelector(".logout-button")
   .addEventListener("click", handleLogout);
+
+const email = document.querySelector('input[name="email"]').value;
+const password = document.querySelector('input[name="password"]').value;
