@@ -3,36 +3,37 @@ import { getContent } from "../model/model.js";
 function route() {
   let hash = window.location.hash;
   let pageID = hash.replace("#", "");
-
-  /* (if pageID exists) ? (nothing) : (else pageID is home) */
-  pageID ? (pageID = pageID) : (pageID = "home");
-
+  pageID = pageID ? pageID : "home";
   getContent(pageID);
 }
 
 function initListeners() {
   $(window).on("hashchange", route);
   route();
+
+  const loginForm = document.querySelector(".login-Form");
+  const logoutButton = document.querySelector(".logout-button");
+
+  if (loginForm) {
+    loginForm.addEventListener("submit", handleLogin);
+  }
+  if (logoutButton) {
+    logoutButton.addEventListener("click", handleLogout);
+  }
 }
 
-$(document).ready(function () {
-  initListeners();
-});
+$(document).ready(initListeners);
 
 async function handleLogin(event) {
   event.preventDefault();
 
-  const email = document.querySelector(
-    'input[placeholder="Email-Address:"]'
-  ).value;
-  const password = document.querySelector(
-    'input[placeholder="Password:"]'
-  ).value;
+  const email = document.querySelector('input[name="email"]').value;
+  const password = document.querySelector('input[name="password"]').value;
 
   if (email === "test@example.com" && password === "password") {
     Swal.fire({
-      title: "Welcome!",
-      text: "You have successfully logged in.",
+      title: "Login Successful!",
+      text: "Welcome back!",
       icon: "success",
       confirmButtonText: "OK",
     });
@@ -55,17 +56,7 @@ function handleLogout() {
     confirmButtonText: "Yes, logout",
   }).then((result) => {
     if (result.isConfirmed) {
-      Swal.fire({
-        title: "Logged out!",
-        text: "You have been successfully logged out.",
-        icon: "success",
-        confirmButtonText: "OK",
-      });
+      Swal.fire("Logged out!", "You have successfully logged out.", "success");
     }
   });
 }
-
-document.querySelector(".login-Form").addEventListener("submit", handleLogin);
-document
-  .querySelector(".logout-button")
-  .addEventListener("click", handleLogout);

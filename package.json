@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.79.5"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.14.3"
   }
 }

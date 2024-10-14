@@ -97,7 +97,6 @@ nav {
 
 footer {
   margin-top: 130px;
-  /* keep this margin top to keep spacing even accross all pages */
   height: 90px;
   background-color: rgb(88, 124, 131);
   display: flex;
@@ -536,48 +535,62 @@ section.books > *:not(:last-child) {
 .loginWrapper {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   min-height: 60vh;
-  padding: 20px;
+  padding: 40px 0;
 }
 
 .login-Form,
-form {
+.signup-Form {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 280px;
   background-color: #ffffff;
   padding: 20px;
 }
 
-h2 {
-  font-size: 24px;
-  color: #333333;
-  margin-bottom: 15px;
+.Login-Heading,
+.Signin-Heading {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-p {
-  font-size: 14px;
-  color: #777;
+label {
+  font-size: 0.9rem;
+  color: #555;
   margin-bottom: 5px;
 }
 
-input[type=text] {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
+p {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #5a7d7c; /* Adds underline */
+  padding: 8px 0;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-bottom-color: #496b6a; /* Changes underline color on focus */
 }
 
 button {
   padding: 10px;
   border: none;
   background-color: #5a7d7c;
-  color: #ffffff;
+  color: #fff;
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 10px;
+  font-weight: bold;
 }
 
 button:hover {
